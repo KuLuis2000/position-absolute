@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body{
+    font-family: helvetica;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+
+.ancho{
+    max-width: 1200px;
+    margin: auto;
+}
+
+article{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+header{
+    text-align: center;
+    margin-top: 15px !important;
+    padding: 10px 15px;
+}
+
+.renglones{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px #ccc;
+}
+
+figure{
+    position: relative;
+    height: 200px;
+}
+
+figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.fecha{
+    position: absolute;
+    color: white;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    background-color: #FC5700;
+    border-radius: 100%;
+    top: 7%;
+    left: 82%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fecha p{
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: bold;
+}
+
+.date_number{
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+.mensaje{
+    position: absolute;
+    color: white;
+    background-color: #FC5700;
+    bottom: 0%;
+    left: 0%;
+    padding: 3px 15px;
+}
+
+.mensaje p{
+    font-size: 13px;
+}
+
+.articulo{
+    height: 150px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.learn_more{
+    text-align: right;
+    margin: 15px;
+}
+
+.learn_more a{
+    color: #FC5700;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.learn_more i{
+    font-size: 10px;
+}
+
+.all_entries{
+    padding: 25px 30px;
+    text-align: right;
+}
+
+.all_entries a{
+    text-decoration: none;
+    color: #FC5700;
+    font-weight: bold;
+}
+
+.all_entries a i{
+    font-weight: bolder !important;
+}
+
+footer{
+    background-color: #FC5700;
+    padding: 20px 50px;
+    text-align: center;
+    color: white;
+}
+
+footer p{
+    font-size: 25px;
+    font-weight: lighter !important;
+    line-height: 35px;
+}
